@@ -1,5 +1,4 @@
 import { Column, Entity, PrimaryGeneratedColumn, BaseEntity, OneToOne, JoinColumn } from 'typeorm';
-import { Support } from './Support'
 import * as bcrypt from 'bcryptjs'
 import * as jwt from 'jsonwebtoken'
 

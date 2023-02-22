@@ -1,8 +1,5 @@
 import { Request, Response } from 'express'
 import { User } from "../entity/User"
-import { Support } from '../entity/Support'
-import * as jwt from 'jsonwebtoken'
-import { secret } from '../config'
 
 export const createUser = async (req: Request, res: Response) => {
     try {
